@@ -1,9 +1,9 @@
-version: 0.0
+version: 0.1
 os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
-hooks:
+#hooks:
 #  BeforeInstall:
 #    - location: scripts/install_dependencies
 #      timeout: 300
