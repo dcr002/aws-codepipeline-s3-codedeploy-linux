@@ -3,6 +3,13 @@ os: linux
 files:
   - source: /index.html
     destination: /var/www/html/
+phases:
+  install:
+    runtime-versions:
+        php: 7.3
+  build:
+    commands:
+      - php --version
 #hooks:
 #  BeforeInstall:
 #    - location: scripts/install_dependencies
